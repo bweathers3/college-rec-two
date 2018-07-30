@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
+import { Grid, Row, Col } from 'bootstrap';
 import './App.css';
 
 class App extends Component {
