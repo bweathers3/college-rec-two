@@ -7,8 +7,7 @@ import App from './components/app/App';
 import registerServiceWorker from './registerServiceWorker';
 import { Router, Route } from 'react-router';
 
-/*
- const router = (
+const router = (
      <BrowserRouter>
        <Route path="/" component={ App }>
          <App />
@@ -16,13 +15,12 @@ import { Router, Route } from 'react-router';
      </BrowserRouter>
  )
 
-
  ReactDOM.render(
    router,
    document.getElementById('root')
  );
- */
 
+/*
  ReactDOM.render(
      <BrowserRouter>
        <App />
@@ -30,3 +28,4 @@ import { Router, Route } from 'react-router';
      , document.getElementById('root'));
 
 registerServiceWorker();
+*/
